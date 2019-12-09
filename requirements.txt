@@ -1,1 +1,3 @@
 flask
+pandas_datareader
+fecon236
