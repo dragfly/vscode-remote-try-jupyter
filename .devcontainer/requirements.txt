@@ -1,6 +1,8 @@
 flask
+pandas
 pandas_datareader
 fecon236
 scipy
 numpy
 chart_studio
+ta
