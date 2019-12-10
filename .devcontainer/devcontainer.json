@@ -1,6 +1,6 @@
 {
 	"name": "Jupyter Sample",
-	"dockerFile": "Dockerfile.Jupyter",
+	"dockerFile": "Dockerfile",
 	// Use 'appPort' to create a container with published ports. If the port isn't working, be sure
 	// your server accepts connections from all interfaces (0.0.0.0 or '*'), not just localhost.
 	// In this case, "--host 0.0.0.0 --port 9000" needs to be passed into Flask to make this happen.
@@ -23,7 +23,7 @@
 		"python.linting.enabled": true
 	},
 	// Specifies a command to run after the container is created
-	"postCreateCommand": "sudo /opt/conda/bin/pip install -r requirements.txt",
+	"postCreateCommand": "",
 	"extensions": [
 		"ms-python.python"
 	]
