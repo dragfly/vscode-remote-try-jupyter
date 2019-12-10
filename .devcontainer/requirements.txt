@@ -1,0 +1,6 @@
+flask
+pandas_datareader
+fecon236
+scipy
+numpy
+chart_studio
