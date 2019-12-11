@@ -11,7 +11,8 @@
 	// update Dockerfile with your user's UID/GID if not 1000.
 	"runArgs": [
 		"-u",
-		"vscode"
+		"vscode",
+		"--env-file",".env"
 	],
 	// Use 'settings' to set *default* container specific settings.json values on container create. 
 	// You can edit these settings after create using File > Preferences > Settings > Remote.
