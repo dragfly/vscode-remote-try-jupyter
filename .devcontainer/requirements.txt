@@ -9,3 +9,5 @@ chart_studio
 ta
 intake
 hvplot
+altair
+vega_datasets
