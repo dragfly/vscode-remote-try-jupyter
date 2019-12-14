@@ -7,3 +7,5 @@ scipy
 numpy
 chart_studio
 ta
+intake
+hvplot
